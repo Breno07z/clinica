@@ -2,7 +2,7 @@
 
 :root {
   --red: #ff0000;
-  --black: #444;
+  --white: ;
   --light-color: #777;
   --box-shadow: 0.5rem 0.5rem 0 rgba(22, 160, 133, 0.2);
   --text-shadow: 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.2);
@@ -40,7 +40,7 @@ section {
   padding-bottom: 2rem;
   text-shadow: var(--text-shadow);
   text-transform: uppercase;
-  color: var(--black);
+  color: var(--white);
   font-size: 5rem;
   letter-spacing: 0.4rem;
 }
@@ -99,7 +99,7 @@ section {
 
 .header .logo {
   font-size: 2.5rem;
-  color: var(--black);
+  color: var(--purple);
 }
 
 .header .logo i {
@@ -148,7 +148,7 @@ section {
 
 .inicio .conteudo h3 {
   font-size: 4.5rem;
-  color: var(--black);
+  color: var(--white);
   line-height: 1.8;
   text-shadow: var(--text-shadow);
 }
@@ -184,7 +184,7 @@ section {
 
 .icons-container .icons h3 {
   font-size: 4.5rem;
-  color: var(--black);
+  color: var(--purple);
   padding: 0.5rem 0;
   text-shadow: var(--text-shadow);
 }
@@ -214,7 +214,7 @@ section {
 }
 
 .serviços .box-container .box h3 {
-  color: var(--black);
+  color: var(--purple);
   font-size: 2.5rem;
   padding: 1rem 0;
 }
@@ -245,7 +245,7 @@ section {
 }
 
 .Sobre .row .conteudo h3 {
-  color: var(--black);
+  color: var(--purple);
   text-shadow: var(--text-shadow);
   font-size: 4rem;
   line-height: 1.8;
@@ -281,7 +281,7 @@ section {
 }
 
 .Medicos .box-container .box h3 {
-  color: var(--black);
+  color: var(--purple);
   font-size: 2.5rem;
 }
 
@@ -337,7 +337,7 @@ section {
 }
 
 .agendamento .row form h3 {
-  color: var(--black);
+  color: var(--purple);
   padding-bottom: 1rem;
   font-size: 3rem;
 }
@@ -348,7 +348,7 @@ section {
   border-radius: 0.5rem;
   border: var(--border);
   font-size: 1.6rem;
-  color: var(--black);
+  color: black;
   text-transform: none;
   padding: 1rem;
 }
@@ -435,7 +435,7 @@ section {
 
 .footer .box-container .box h3 {
   font-size: 2.5rem;
-  color: var(--black);
+  color: var(--purple);
   padding: 1rem 0;
 }
 
