@@ -328,7 +328,7 @@ section {
 
 .agendamento .row form {
   flex: 1 1 45rem;
-  background: ;
+  background: none;
   border: var(--border);
   box-shadow: var(--box-shadow);
   text-align: center;
