@@ -2,7 +2,7 @@
 
 :root {
   --red: #ff0000;
-  --white: ;
+  --white: none;
   --light-color: #777;
   --box-shadow: 0.5rem 0.5rem 0 rgba(22, 160, 133, 0.2);
   --text-shadow: 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.2);
@@ -99,7 +99,7 @@ section {
 
 .header .logo {
   font-size: 2.5rem;
-  color: var(--purple);
+  color: var(--white);
 }
 
 .header .logo i {
@@ -184,7 +184,7 @@ section {
 
 .icons-container .icons h3 {
   font-size: 4.5rem;
-  color: var(--purple);
+  color: var(--white);
   padding: 0.5rem 0;
   text-shadow: var(--text-shadow);
 }
@@ -214,7 +214,7 @@ section {
 }
 
 .serviços .box-container .box h3 {
-  color: var(--purple);
+  color: var(--white);
   font-size: 2.5rem;
   padding: 1rem 0;
 }
@@ -245,7 +245,7 @@ section {
 }
 
 .Sobre .row .conteudo h3 {
-  color: var(--purple);
+  color: var(--white);
   text-shadow: var(--text-shadow);
   font-size: 4rem;
   line-height: 1.8;
@@ -281,7 +281,7 @@ section {
 }
 
 .Medicos .box-container .box h3 {
-  color: var(--purple);
+  color: var(--white);
   font-size: 2.5rem;
 }
 
@@ -337,7 +337,7 @@ section {
 }
 
 .agendamento .row form h3 {
-  color: var(--purple);
+  color: var(--white);
   padding-bottom: 1rem;
   font-size: 3rem;
 }
@@ -435,7 +435,7 @@ section {
 
 .footer .box-container .box h3 {
   font-size: 2.5rem;
-  color: var(--purple);
+  color: var(--white);
   padding: 1rem 0;
 }
 
@@ -484,7 +484,7 @@ section {
     box-shadow: var(--box-shadow);
     width: 30rem;
     border: var(--border);
-    background: #fff;
+    background: none;
     transform: scale(0);
     opacity: 0;
     transform-origin: top right;
@@ -510,3 +510,22 @@ section {
   }
 }
 
+
+/* Estilos para o ícone ModoDark */
+.bi-brightness-high-fill {
+  font-size: 24px;
+  cursor: pointer; 
+  transition: color 0.3s ease; 
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+.bi-brightness-high-fill.modo-escuro {
+  color: white; 
+}
+
+
+.bi-brightness-high-fill.modo-claro {
+  color: black; 
+}
